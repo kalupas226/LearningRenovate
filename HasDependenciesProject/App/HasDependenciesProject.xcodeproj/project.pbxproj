@@ -11,11 +11,6 @@
 		C79B54D729E1303F0090A19E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79B54D629E1303F0090A19E /* ContentView.swift */; };
 		C79B54D929E130400090A19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79B54D829E130400090A19E /* Assets.xcassets */; };
 		C79B54DC29E130400090A19E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79B54DB29E130400090A19E /* Preview Assets.xcassets */; };
-		C79B54E429E130AE0090A19E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = C79B54E329E130AE0090A19E /* ComposableArchitecture */; };
-		C79B54E729E130EF0090A19E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C79B54E629E130EF0090A19E /* GoogleSignIn */; };
-		C79B54E929E130EF0090A19E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C79B54E829E130EF0090A19E /* GoogleSignInSwift */; };
-		C79B54EC29E130FF0090A19E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C79B54EB29E130FF0090A19E /* Kingfisher */; };
-		C79B54EF29E1310C0090A19E /* MicrocmsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C79B54EE29E1310C0090A19E /* MicrocmsSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +19,7 @@
 		C79B54D629E1303F0090A19E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C79B54D829E130400090A19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79B54DB29E130400090A19E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7A9F55429E13B2D00BC78C9 /* HasDependenciesProject */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HasDependenciesProject; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,11 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79B54EC29E130FF0090A19E /* Kingfisher in Frameworks */,
-				C79B54E929E130EF0090A19E /* GoogleSignInSwift in Frameworks */,
-				C79B54EF29E1310C0090A19E /* MicrocmsSDK in Frameworks */,
-				C79B54E429E130AE0090A19E /* ComposableArchitecture in Frameworks */,
-				C79B54E729E130EF0090A19E /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +37,7 @@
 			isa = PBXGroup;
 			children = (
 				C79B54D329E1303F0090A19E /* HasDependenciesProject */,
+				C7A9F55429E13B2D00BC78C9 /* HasDependenciesProject */,
 				C79B54D229E1303F0090A19E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,11 +86,6 @@
 			);
 			name = HasDependenciesProject;
 			packageProductDependencies = (
-				C79B54E329E130AE0090A19E /* ComposableArchitecture */,
-				C79B54E629E130EF0090A19E /* GoogleSignIn */,
-				C79B54E829E130EF0090A19E /* GoogleSignInSwift */,
-				C79B54EB29E130FF0090A19E /* Kingfisher */,
-				C79B54EE29E1310C0090A19E /* MicrocmsSDK */,
 			);
 			productName = HasDependenciesProject;
 			productReference = C79B54D129E1303F0090A19E /* HasDependenciesProject.app */;
@@ -129,10 +116,6 @@
 			);
 			mainGroup = C79B54C829E1303F0090A19E;
 			packageReferences = (
-				C79B54E229E130AE0090A19E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
-				C79B54E529E130EF0090A19E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-				C79B54EA29E130FF0090A19E /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				C79B54ED29E1310C0090A19E /* XCRemoteSwiftPackageReference "microcms-ios-sdk" */,
 			);
 			productRefGroup = C79B54D229E1303F0090A19E /* Products */;
 			projectDirPath = "";
@@ -360,69 +343,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		C79B54E229E130AE0090A19E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.52.0;
-			};
-		};
-		C79B54E529E130EF0090A19E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
-		C79B54EA29E130FF0090A19E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
-		C79B54ED29E1310C0090A19E /* XCRemoteSwiftPackageReference "microcms-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/microcmsio/microcms-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		C79B54E329E130AE0090A19E /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C79B54E229E130AE0090A19E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
-		C79B54E629E130EF0090A19E /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C79B54E529E130EF0090A19E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		C79B54E829E130EF0090A19E /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C79B54E529E130EF0090A19E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
-		};
-		C79B54EB29E130FF0090A19E /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C79B54EA29E130FF0090A19E /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		C79B54EE29E1310C0090A19E /* MicrocmsSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C79B54ED29E1310C0090A19E /* XCRemoteSwiftPackageReference "microcms-ios-sdk" */;
-			productName = MicrocmsSDK;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C79B54C929E1303F0090A19E /* Project object */;
 }
