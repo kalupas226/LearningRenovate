@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "10.3.0"),
         .package(url: "https://github.com/marmelroy/PhoneNumberKit", from: "3.5.8"),
         .package(url: "https://github.com/google/GoogleSignIn-iOS", from: "6.2.4"),
-        .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.9.0"),
+        .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.11.0"),
         .package(url: "https://github.com/pointfreeco/swift-overture", from: "0.5.0"),
         .package(url: "https://github.com/zendesk/sunshine-conversations-ios", from: "12.1.0"),
         .package(url: "https://github.com/vitkuzmenko/CreditCardValidator.git", from: "0.5.3"),
