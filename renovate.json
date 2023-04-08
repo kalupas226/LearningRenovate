@@ -4,6 +4,8 @@
     "config:base"
   ],
   "packageRules": [
-    "matchManagers": ["swift"]
+    {
+      "matchManagers": ["swift"]
+    }
   ]
 }
