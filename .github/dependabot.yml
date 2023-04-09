@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "swift"
+    directory: "./HasDependenciesProject"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+  - package-ecosystem: "swift"
+    directory: "./Project2"
+    schedule:
+      interval: "daily"
+    target-branch: "develop"
