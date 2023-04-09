@@ -3,20 +3,16 @@
   "extends": [
     "config:base"
   ],
-  "baseBranches": [
-    "main",
-    "develop"
-  ],
   "packageRules": [
     {
+      "baseBranches": ["main"],
       "matchFiles": ["./HasDependenciesProject/Package.swift"],
-      "matchManagers": ["swift"],
-      "baseBranches": ["main"]
+      "matchManagers": ["swift"]
     },
     {
+      "baseBranches": ["develop"],
       "matchFiles": ["./Project2/Package.swift"],
-      "matchManagers": ["swift"],
-      "baseBranches": ["develop"]
+      "matchManagers": ["swift"]
     }
   ]
 }
