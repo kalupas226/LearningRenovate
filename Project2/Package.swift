@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/pointfreeco/swift-dependencies", from: "0.2.0"),
         .package(url: "https://github.com/noppefoxwolf/DebugMenu.git", from: "2.0.4"),
-        .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "10.3.0"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "10.7.0"),
         .package(url: "https://github.com/marmelroy/PhoneNumberKit", from: "3.5.8"),
         .package(url: "https://github.com/google/GoogleSignIn-iOS", from: "6.2.4"),
         .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.9.0"),
